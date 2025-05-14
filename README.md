@@ -10,9 +10,9 @@ However, the company’s reputation is threatened by a journalist investigating 
 
 Just ensure you have NodeJS installed. Then navigate the project folder and hit:
 
-´´´bash
+```bash
 npm install
 npm run dev
-´´´
+```
 
-Then open your browser to ´localhost:8080´ and see the website.
+Then open your browser to `localhost:8080` and see the website.
