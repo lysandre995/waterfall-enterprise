@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>{{ title or "Website" }}</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"/>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"/>
+  </head>
+  <body  class="d-flex flex-column min-vh-100">
+    {% include "partials/navbar.njk" %}
+    <div id="loader" class="d-none bg-body">
+      <div class="spinner-border text-primary" role="status"></div>
+      <span class="ms-2" data-i18n="loading">Loading...</span>
+    </div>
+    <div id="barba-wrapper" data-barba="wrapper" class="flex-fill d-flex flex-column">
+      <main data-barba="container" data-barba-namespace="{{ page.fileSlug }}" class="flex-fill">
+        {{ content | safe }}
+      </main>
+    </div>
+    {% include "partials/footer.njk" %}
+    <script src="/js/i18next.min.js"></script>
+    <script src="/js/i18next-init.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
