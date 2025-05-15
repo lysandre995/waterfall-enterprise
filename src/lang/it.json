@@ -5,5 +5,15 @@
     "about": "Chi siamo",
     "loading": "Caricamento...",
     "homepage-message": "Questa è la Homepage",
-    "about-message": "Siamo un'azienda finta, con grandi sogni."
+    "about-message": "Siamo un'azienda finta, con grandi sogni.",
+    "articles": {
+        "article_1": {
+            "title": "Titolo Articolo 1",
+            "summary": "Sommario dell'articolo 1"
+        },
+        "article_2": {
+            "title": "Titolo Articolo 2",
+            "summary": "Sommario dell'articolo 2"
+        }
+    }
 }

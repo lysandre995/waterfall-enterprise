@@ -1,0 +1,14 @@
+[
+    {
+        "id": "article_1",
+        "img": "https://picsum.photos/1024/100",
+        "date": "15-05-2025",
+        "author": "Mario Rossi"
+    },
+    {
+        "id": "article_2",
+        "img": "https://picsum.photos/1024/100",
+        "date": "16-05-2025",
+        "author": "Luisa Verdi"
+    }
+]

@@ -5,5 +5,15 @@
     "about": "Who we are",
     "loading": "Loading...",
     "homepage-message": "This is the Homepage",
-    "about-message": "We are a fake company, with big dreams."
+    "about-message": "We are a fake company, with big dreams.",
+    "articles": {
+        "article_1": {
+            "title": "Article 1 Title",
+            "summary": "Summary of article 1"
+        },
+        "article_2": {
+            "title": "Article 2 Title",
+            "summary": "Summary of article 2"
+        }
+    }
 }

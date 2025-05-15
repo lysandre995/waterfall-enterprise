@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
             lng: defaultLang,
             fallbackLng: "en",
             debug: false,
+            keySeparator: ".",
             resources: {
                 en: { translation: {} },
                 it: { translation: {} }
@@ -15,10 +16,10 @@ document.addEventListener("DOMContentLoaded", () => {
             return Promise.all([
                 fetch(`/lang/en.json`)
                     .then(res => res.json())
-                    .then(d => i18next.addResources("en", "translation", d)),
+                    .then(d => i18next.addResourceBundle("en", "translation", d, true, true)),
                 fetch(`/lang/it.json`)
                     .then(res => res.json())
-                    .then(d => i18next.addResources("it", "translation", d))
+                    .then(d => i18next.addResourceBundle("it", "translation", d, true, true))
             ]);
         })
         .then(() => {
