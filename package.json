@@ -4,6 +4,7 @@
     "main": "main.js",
     "scripts": {
         "dev": "eleventy --serve",
+        "dev_0.0.0.0": "eleventy --serve --watch --host=0.0.0.0",
         "build": "eleventy",
         "format": "prettier . --write"
     },
