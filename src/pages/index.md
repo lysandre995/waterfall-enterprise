@@ -1,26 +1,23 @@
 ---
 layout: layout.njk
 title: Home
-permalink: /index.html
+permalink: "/index.html"
 ---
 
-<h1 data-i18n="welcome">Welcome</h1>
+<h1 data-i18n="home">Who we are</h1>
+<p data-i18n="homepage-catchphrase"></p>
+<p data-i18n="homepage-p1"></p>
+<p data-i18n="homepage-p2"></p>
+<p data-i18n="homepage-p3"></p>
 
-<span data-i18n="homepage-message">This is the Homepage</span>
+<ol>
+  <li data-i18n="homepage-list-1"></li>
+  <li data-i18n="homepage-list-2"></li>  
+  <li data-i18n="homepage-list-3"></li>  
+  <li data-i18n="homepage-list-4"></li>  
+  <li data-i18n="homepage-list-5"></li>
+</ol>
 
-<div id="articles-container">
-  {% for article in articles %}
-    <div class="card mb-3" data-article-id="{{ article.id }}">
-      <img src="{{ article.img }}" class="card-img-top" alt="" />
-      <div class="card-body">
-        <h5 class="card-title" data-i18n="articles.{{ article.id }}.title">...</h5>
-        <p class="card-text" data-i18n="articles.{{ article.id }}.summary">...</p>
-        <p class="card-text">
-          <small class="text-body-secondary">
-            {{ article.author }} - {{ article.date }}
-          </small>
-        </p>
-      </div>
-    </div>
-  {% endfor %}
-</div>
+<hr>
+
+<p data-i18n="homepage-end-sentence"></p>
