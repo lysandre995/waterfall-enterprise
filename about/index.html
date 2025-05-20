@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Home</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"/>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"/>
+  </head>
+  <body  class="d-flex flex-column min-vh-100">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container">
+    <a class="navbar-brand  d-flex align-items-center gap-2" href="/">
+      <img src="/img/waterfall-logo.png" alt="" width="80" height="80" class="img-fluid"/>
+      <span class="fs-2">Waterfall Enterprise</span>
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarContent"
+      aria-controls="navbarContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/" data-i18n="home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about/" data-i18n="about">Chi siamo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/team/" data-i18n="team-nav">Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/play/" data-i18n="play">Spettacolo</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle d-flex align-items-center gap-1" href="#" role="button" data-bs-toggle="dropdown">
+            <i class="ph ph-globe"></i>
+            <span data-i18n="language">Lingua</span>
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <button class="dropdown-item" data-lang-select="en">🇬🇧 English</button>
+            </li>
+            <li>
+              <button class="dropdown-item" data-lang-select="it">🇮🇹 Italiano</button>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item d-flex align-items-center">
+          <button id="theme-toggle" class="btn">
+            <i class="ph-fill ph-circle-half"></i>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <div id="loader" class="d-none bg-body">
+      <div class="spinner-border text-primary" role="status"></div>
+      <span class="ms-2" data-i18n="loading">Loading...</span>
+    </div>
+    <div id="barba-wrapper" data-barba="wrapper" class="flex-fill d-flex flex-column">
+      <main data-barba="container" data-barba-namespace="about" class="container flex-fill">
+        <h1 data-i18n="aboutpage.message">Dicono di noi</h1>
+<p><span data-i18n="aboutpage.p1">Leggi le novità sulla nostra azienda</span></p>
+<div id="articles-container">
+<p><div class="card mb-3" data-article-id="article_1">
+<img src="/img/dante.jpg" class="card-img-top" alt="" />
+<div class="card-body">
+<h5 class="card-title" data-i18n="articles.article_1.title">...</h5>
+<p class="card-text" data-i18n="articles.article_1.summary">...</p>
+<p class="card-text">
+<small class="text-body-secondary">
+Waterfall Enterprise - 15-05-2025
+</small>
+</p>
+</div>
+</div></p>
+<p><div class="card mb-3" data-article-id="article_2">
+<img src="/img/milan.jpg" class="card-img-top" alt="" />
+<div class="card-body">
+<h5 class="card-title" data-i18n="articles.article_2.title">...</h5>
+<p class="card-text" data-i18n="articles.article_2.summary">...</p>
+<p class="card-text">
+<small class="text-body-secondary">
+Waterfall Enterprise - 16-05-2025
+</small>
+</p>
+</div>
+</div></p>
+<p><div class="card mb-3" data-article-id="article_3">
+<img src="/img/waterfall.jpg" class="card-img-top" alt="" />
+<div class="card-body">
+<h5 class="card-title" data-i18n="articles.article_3.title">...</h5>
+<p class="card-text" data-i18n="articles.article_3.summary">...</p>
+<p class="card-text">
+<small class="text-body-secondary">
+Waterfall Enterprise - 20-05-2025
+</small>
+</p>
+</div>
+</div></p>
+</div>
+
+      </main>
+    </div>
+    <footer class="bg-body-tertiary text-center py-3">
+  <p class="mb-0">© 2025 Waterfall</p>
+</footer>
+
+    <script src="/js/i18next.min.js"></script>
+    <script src="/js/i18next-init.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>

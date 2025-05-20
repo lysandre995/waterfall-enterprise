@@ -1,0 +1,116 @@
+{
+    "welcome": "Benvenuto",
+    "home": "Home",
+    "about": "Chi siamo",
+    "team-nav": "Team",
+    "play": "Spettacolo",
+    "language": "Lingua",
+    "loading": "Caricamento...",
+    "waterfall": "Waterfall",
+    "homepage": {
+        "message": "I nostri valori",
+        "motto": "Il futuro deve essere come un fiume che ci trasporta in avanti, non come una cascata che ci piomba addosso.",
+        "p1": "Dal 2015, Waterfall si impegna a costruire un futuro dove l’intelligenza artificiale sia una corrente che guida il cambiamento, non una forza travolgente e incontrollata.",
+        "p2": "Il nostro nome rappresenta la cascata del futuro: potente, sì, ma incanalata, direzionata, generatrice di energia e progresso.",
+        "p3": "In un mondo in rapido movimento, dove la tecnologia può facilmente sopraffare, noi scegliamo di accompagnare. Il nostro algoritmo, “Dante”, in grado di replicare fedelmente voce, volto e comportamento umano, non nasce per sostituire le persone, ma per liberarle da ciò che le trattiene, automatizzando attività complesse e restituendo tempo, lucidità e valore.",
+        "p4": "Ecco i principi che orientano ogni nostra scelta:",
+        "li-h1": "Futuro consapevole",
+        "li-p1": "Non inseguiamo il cambiamento: lo guidiamo. Ogni innovazione che sviluppiamo è pensata per armonizzarsi con la vita delle persone, con responsabilità e visione a lungo termine. Una cascata può essere pericolosa, ma se controllata diventa una fonte inesauribile di energia.",
+        "li-h2": "Tecnologia al servizio dell’umano",
+        "li-p2": "La nostra AI amplifica, non sostituisce. Automatizzando i compiti ripetitivi, lasciamo spazio alla creatività, all’intuizione e al pensiero critico — tutto ciò che rende unico il contributo umano.",
+        "li-h3": "Etica e trasparenza",
+        "li-p3": "Quando si lavora con tecnologie capaci di imitare l’identità umana, l’etica non è un accessorio: è il fondamento. Operiamo con trasparenza, tutela dei dati e rispetto della persona, costruendo rapporti basati sulla fiducia.",
+        "li-h4": "Innovazione sostenibile",
+        "li-p4": "L’innovazione è un fiume che scorre senza fine, ma va indirizzata. Non creiamo per creare: ogni nostro sviluppo ha uno scopo preciso, orientato a migliorare la vita quotidiana e il lavoro reale dei nostri clienti.",
+        "li-h5": "Eccellenza che evolve",
+        "li-p5": "Restare all’avanguardia significa imparare costantemente. Ogni giorno perfezioniamo il nostro algoritmo, non solo per anticipare il domani, ma per offrire strumenti che siano davvero utili, accessibili e sicuri oggi.",
+        "p5": " è la cascata che canalizza l’energia del futuro.",
+        "p6": "Non qualcosa che piomba addosso, ma una forza che ci spinge in avanti, con equilibrio, direzione e consapevolezza. Perché il progresso non deve travolgere: deve accompagnare."
+    },
+    "aboutpage": {
+        "message": "Dicono di noi",
+        "p1": "Leggi le novità sulla nostra azienda"
+    },
+    "teampage": {
+        "message": "Conosci il nostro team"
+    },
+    "playpage": {
+        "director": "Scritto e diretto da Ilaria Casati",
+        "synopsis": {
+            "header": "Sinossi",
+            "text": "“Il futuro deve essere come un fiume che ci trasporta in avanti, non come una cascata che ci piomba addosso”, questo è il motto del CEO di Waterfall, un’azienda nel settore informatico, pioniera nel campo dell’Intelligenza Artificiale. Il prodotto di punta, “Dante”, è un algoritmo in grado di clonare le persone, simulandone i compiti, il comportamento e perfino la voce. E grazie a Dante, Waterfall di accinge a diventare la prima azienda con un’amministrazione totalmente digitalizzata e automatizzata. La reputazione dell’azienda è però minacciata da una giornalista che vuole indagare sulla responsabile amministrativa, una donna incinta, di cui Dante prenderà il posto. Waterfall non è uno spettacolo sull’intelligenza artificiale né sull’informatica, ma uno spettacolo sul mondo del lavoro corporate, fatto di manager, CEO, investitori e speranzosi neo-laureati, che corrono disperatamente dietro a presentazioni, indicatori di performance e server sovraccaricati. Un mondo frenetico, che guarda avanti e mai indietro, e ci porta a chiedere cosa sia davvero il progresso."
+        },
+        "trailer": "Guarda il trailer",
+        "dates": "  Date"
+    },
+    "articles": {
+        "article_1": {
+            "title": "Dante, il primo algoritmo di clonazione digitale: futuro o fantascienza?",
+            "summary": "Dalle buste paga all’accoglienza clienti, Waterfall Enterprise, la nota azienda informatica, sarà la prima azienda al mondo ad avere una segreteria completamente automatizzata."
+        },
+        "article_2": {
+            "title": "Waterfall: una storia di eccellenza made in Italy",
+            "summary": "Da oltre 10 anni Waterfall è leader nello sviluppo tecnologico in Italia e all’estero, la ricetta? Diversità, inclusione, e lavoro di squadra."
+        },
+        "article_3": {
+            "title": "Record di vendite di “Come una cascata”, il nuovo best seller del CEO di Waterfall",
+            "summary": "Qual è il segreto del successo? Quali sono I 10 comandamenti di un team che funziona? 20 capitoli, 250 pagine, 250 000 parole, sono ciò che ti separa dal creare il tuo business."
+        }
+    },
+    "team": {
+        "ceo": {
+            "role": "CEO",
+            "duties": [
+                "Fondatore di Waterfall e CEO della compagnia.",
+                "Autore del libro “Come una cascata”.",
+                "Proprietario intellettuale dell’algoritmo Dante."
+            ]
+        },
+        "manager": {
+            "role": "Manager",
+            "duties": [
+                "Manager esecutivo di Waterfall.",
+                "Project manager generale del team Dante e responsabile del branch AI."
+            ]
+        },
+        "cd": {
+            "role": "Chief Developer",
+            "duties": [
+                "Manager del dipartimento di sviluppo e ricerca del team Dante.",
+                "P.H.D. in Software Engineering."
+            ]
+        },
+        "secretary": {
+            "role": "Segretaria",
+            "duties": [
+                "Responsabile accoglienza clienti di Waterfall.",
+                "Responsabile amministrativa e controllo di gestione.",
+                "Trainer umano di “Dante”, lo stampo della nuova intelligenza artificiale che automatizzerà i processi di gestione in Waterfall."
+            ]
+        },
+        "janitor": {
+            "role": "Janitor",
+            "duties": ["Addetto alle pulizie di Waterfall.", "Responsabile interventi di manutenzione."]
+        },
+        "jd": {
+            "role": "Junior Developer",
+            "duties": [
+                "Laureata in Computer Science con il massimo dei voti.",
+                "Esperta in excel e pacchetto office.",
+                "Lingue: Inglese e spagnolo."
+            ]
+        },
+        "dps": {
+            "role": "DPS",
+            "duties": ["Direttore della sicurezza del personale ", "Designer per la salute pubblica", "??"]
+        },
+        "journalist": {
+            "role": "Giornalista",
+            "duties": [
+                "Articolista per varie riviste, tra cui “Lavoro & Ambiente”.",
+                "Autrice del saggio “Come l’oppressione capitalista è alimentata dai social media”.",
+                "Lesbica comunista del cazzo."
+            ]
+        }
+    }
+}
