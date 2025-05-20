@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
   <head>
     <meta charset="UTF-8"/>
     <title>{{ title or "Website" }}</title>
@@ -21,7 +21,7 @@
       <span class="ms-2" data-i18n="loading">Loading...</span>
     </div>
     <div id="barba-wrapper" data-barba="wrapper" class="flex-fill d-flex flex-column">
-      <main data-barba="container" data-barba-namespace="{{ page.fileSlug }}" class="flex-fill">
+      <main data-barba="container" data-barba-namespace="{{ page.fileSlug }}" class="container flex-fill">
         {{ content | safe }}
       </main>
     </div>

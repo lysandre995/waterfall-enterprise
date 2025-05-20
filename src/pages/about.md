@@ -4,9 +4,9 @@ title: Home
 permalink: /about/index.html
 ---
 
-<h1 data-i18n="about">About us</h1>
+<h1 data-i18n="aboutpage.message">Dicono di noi</h1>
 
-<span data-i18n="about-message">This is the Homepage</span>
+<span data-i18n="aboutpage.p1">Leggi le novità sulla nostra azienda</span>
 
 <div id="articles-container">
   {% for article in articles %}

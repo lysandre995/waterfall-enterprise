@@ -1,14 +1,20 @@
 [
     {
         "id": "article_1",
-        "img": "https://picsum.photos/1024/100",
+        "img": "/img/dante.jpg",
         "date": "15-05-2025",
-        "author": "Mario Rossi"
+        "author": "Waterfall Enterprise"
     },
     {
         "id": "article_2",
-        "img": "https://picsum.photos/1024/100",
+        "img": "/img/milan.jpg",
         "date": "16-05-2025",
-        "author": "Luisa Verdi"
+        "author": "Waterfall Enterprise"
+    },
+    {
+        "id": "article_3",
+        "img": "/img/waterfall.jpg",
+        "date": "20-05-2025",
+        "author": "Waterfall Enterprise"
     }
 ]
