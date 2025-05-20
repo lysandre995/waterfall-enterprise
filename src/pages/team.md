@@ -8,7 +8,7 @@ permalink: "/team/index.html"
 
 <div id="team-container" class="d-flex flex-column align-items-center">
     {% for member in team %}
-        <div class="card" style="width: 25rem;">
+        <div class="card" style="width: 18rem;">
         <img src="{{ member.img }}" class="card-img-top" alt="">
             <div class="card-body">
                 <h5 class="card-title" data-i18n="team.{{ member.id }}.role">Role</h5>

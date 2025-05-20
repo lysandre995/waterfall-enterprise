@@ -5,7 +5,7 @@ permalink: "/index.html"
 ---
 
 <h1 data-i18n="homepage.message">I nostri valori</h1>
-<p><em data-i18n="homepage.motto">Il futuro deve essere come un fiume che ci trasporta in avanti, non come una cascata che ci piomba addosso.</em></p>
+<a a class="nav-link" href="/prank/"><em data-i18n="homepage.motto">Il futuro deve essere come un fiume che ci trasporta in avanti, non come una cascata che ci piomba addosso.</em></a>
 <p data-i18n="homepage.p1">Dal 2015, Waterfall si impegna a costruire un futuro dove l’intelligenza artificiale sia una corrente che guida il cambiamento, non una forza travolgente e incontrollata.</p>
 <p data-i18n="homepage.p2">Il nostro nome rappresenta la cascata del futuro: potente, sì, ma incanalata, direzionata, generatrice di energia e progresso.</p>
 <p data-i18n="homepage.p3">In un mondo in rapido movimento, dove la tecnologia può facilmente sopraffare, noi scegliamo di accompagnare. Il nostro algoritmo, “Dante”, in grado di replicare fedelmente voce, volto e comportamento umano, non nasce per sostituire le persone, ma per liberarle da ciò che le trattiene, automatizzando attività complesse e restituendo tempo, lucidità e valore.</p>
