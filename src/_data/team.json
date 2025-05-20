@@ -1,0 +1,42 @@
+[
+    {
+       "id": "ceo",
+       "img": "/img/ceo.jpg",
+       "dutyCount": 3
+    },
+    {
+       "id": "manager",
+       "img": "/img/manager.jpg",
+       "dutyCount": 2
+    },
+    {
+       "id": "cd",
+       "img": "/img/cd.jpg",
+       "dutyCount": 2
+    },
+    {
+       "id": "secretary",
+       "img": "/img/secretary.jpg",
+       "dutyCount": 3
+    },
+    {
+       "id": "janitor",
+       "img": "/img/janitor.jpg",
+       "dutyCount": 2
+    },
+    {
+       "id": "jd",
+       "img": "/img/jd.jpg",
+       "dutyCount": 3
+    },
+    {
+       "id": "dps",
+       "img": "/img/dps.jpg",
+       "dutyCount": 3
+    },
+    {
+       "id": "journalist",
+       "img": "/img/journalist.jpg",
+       "dutyCount": 3
+    }
+]
