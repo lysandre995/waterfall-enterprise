@@ -1,8 +1,8 @@
 [
     {
-        "id": "article_1",
-        "img": "/img/dante.jpg",
-        "date": "15-05-2025",
+        "id": "article_3",
+        "img": "/img/waterfall.jpg",
+        "date": "20-05-2025",
         "author": "Waterfall Enterprise"
     },
     {
@@ -12,9 +12,9 @@
         "author": "Waterfall Enterprise"
     },
     {
-        "id": "article_3",
-        "img": "/img/waterfall.jpg",
-        "date": "20-05-2025",
+        "id": "article_1",
+        "img": "/img/dante.jpg",
+        "date": "15-05-2025",
         "author": "Waterfall Enterprise"
     }
 ]
