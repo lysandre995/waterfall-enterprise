@@ -16,5 +16,11 @@
         "city": "Senna Comasco",
         "address": "Via Roma 46",
         "date": "27-06-2025 21:00"
+    },
+    {
+        "location": "Spazio Gloria",
+        "city": "Como",
+        "address": "Via Varesina 72",
+        "date": "06-05-2026 21:00"
     }
 ]
