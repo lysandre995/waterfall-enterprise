@@ -42,13 +42,7 @@ fi
 if git show-ref --verify --quiet "refs/heads/$DEPLOY_BRANCH"; then
   git checkout "$DEPLOY_BRANCH"
 else
-  # starts from main
-  if git ls-remote --heads origin "$DEPLOY_BRANCH" | grep "$DEPLOY_BRANCH" > /dev/null; then
-    git checkout -b "$DEPLOY_BRANCH" "origin/$DEPLOY_BRANCH"
-  else
-    # create empty branch
-    git checkout -b "$DEPLOY_BRANCH"
-  fi
+  git checkout --orphan "$DEPLOY_BRANCH"
 fi
 
 # create CNAME file
